@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Home</title>
+<style>
+	*{
+        margin: 0;
+        padding: 0;
+     }
+ 
+     body{
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/maxresdefault.jpg);
+        background-size: cover;
+		background-repeat: no-repeat;
+        background-position: center;
+      }
+      h1{
+        padding: 10px 0;
+        color: lawngreen;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container a{
+            width: 85%;
+            margin: auto;
+            color:rgb(243, 189, 54);
+            font-size: larger;
+            font-weight: bolder;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+       .container button{
+            height: 35px;
+            width: 20%;
+            position: relative;
+            top: -10px;
+            left: 0;
+            margin: 10px;
+            background-color:rgb(243, 189, 54);
+            border-color: rgb(243, 189, 54);
+            border-radius: 50px;
+            font-weight: bold;
+            box-shadow: 10px 10px 5px;
+        }
+        .container1 button{
+           	height: 30px;
+            width: 90px;
+            position: relative;
+            top: -20px;
+            margin: 10px;
+            background-color:palevioletred;
+            border-color: palevioletred;
+            border-radius: 50px;
+            font-weight: bold;
+            box-shadow: 10px 10px 5px;
+        }
+</style>
+</head>
+<body>
+	<h1><u>Admin Home</u></h1>
+	<div class="container">
+		<a href="adminfetchallstaff"><button>View Staff</button></a>
+		<a href="adminfetchalldoctor"><button>View Doctor</button></a>
+		<a href="adminfetchallpatient"><button>View All Patients</button></a>
+	<div>
+    <div class="container1">
+        <a href="logout" style='color: palevioletred;'><button>Logout</button></a>
+    </div>
+</body>
+</html>
